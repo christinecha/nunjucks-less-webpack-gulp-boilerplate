@@ -1,8 +1,8 @@
 {
-  "name": "andre-felipe-ribeiro-portfolio-2017",
-  "version": "0.0.0",
-  "description": "Pretty self-explanatory.",
-  "main": "index.html",
+  "name": "nunjucks-less-webpack-gulp-boilerplate",
+  "version": "0.0.1",
+  "description": "A thorough but minimal boilerplate front-end setup.",
+  "main": "dist/index.html",
   "scripts": {
     "dev": "gulp watch",
     "start": "gulp watch & webpack-dev-server --hot --progress",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndreFelipeRibeiro/portfolio-2017.git"
+    "url": "git+https://github.com/christinecha/nunjucks-less-webpack-gulp-boilerplate.git"
   },
   "keywords": [
     "portfolio"
@@ -19,9 +19,9 @@
   "author": "hello@christinecha.com (https://www.christinecha.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AndreFelipeRibeiro/portfolio-2017/issues"
+    "url": "https://github.com/christinecha/nunjucks-less-webpack-gulp-boilerplate/issues"
   },
-  "homepage": "https://github.com/AndreFelipeRibeiro/portfolio-2017#readme",
+  "homepage": "https://github.com/christinecha/nunjucks-less-webpack-gulp-boilerplate#readme",
   "dependencies": {
   },
   "devDependencies": {
