@@ -4,8 +4,10 @@
   "description": "Pretty self-explanatory.",
   "main": "index.html",
   "scripts": {
-    "start": "webpack-dev-server --hot --progress",
-    "build": "webpack"
+    "dev": "gulp watch",
+    "start": "gulp watch & webpack-dev-server --hot --progress",
+    "build": "gulp:nunjucks && gulp:less && webpack",
+    "tunnel": "ngrok http 8080"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,6 @@
   },
   "homepage": "https://github.com/AndreFelipeRibeiro/portfolio-2017#readme",
   "dependencies": {
-    "less": "^2.7.1"
   },
   "devDependencies": {
     "babel-cli": "^6.16.0",
@@ -29,8 +30,15 @@
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.16.0",
     "css-loader": "^0.25.0",
+    "file-loader": "^0.10.0",
+    "gulp-less": "^3.3.0",
+    "gulp-nunjucks-render": "^2.0.0",
+    "less": "^2.7.1",
     "less-loader": "^2.2.3",
+    "ngrok": "^2.2.6",
+    "path": "^0.12.7",
     "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.2"
   }
